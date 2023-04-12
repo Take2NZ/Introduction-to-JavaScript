@@ -50,3 +50,5 @@ else{ (sionesBMI1 === tualelesBMI1) {
     console.log("Tualele has a higher BMI than Sione using test data 2. Tualele's BMI is:", tualeleBMI2, "and Sione's BMI is:", sioneBMI2);
 }
 else
+
+// update
