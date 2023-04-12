@@ -30,7 +30,7 @@ if (take2AvgScore > rushAvgScore && take2AvgScore >= 100) {
 
 // Tip calculation
 const bill = 275;
-const tip = bill >= 50 && bill <= 300 ? bill 0.15 : bill * 0.2;
+const tip = bill >= 50 && bill <= 300 ? bill = 0.15 : bill * 0.2;
 
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${bill + tip}`);
 
@@ -45,7 +45,7 @@ const avgTake2 = calcAverage(44, 23, 71);
 const avgRush = calcAverage(65, 54, 49);
 
 const checkWinner = (avgTake2, avgRush) =>
-  avgTake2 > avgRush ? Take2 win (`${avgTake2} vs ${avgRush}) : Rush win (${avgRush} vs ${avgTake2}`);
+  avgTake2 > avgRush ? "Take2 win"  (`${avgTake2} vs ${avgRush}` ) : ( `Rush win ${avgRush} vs ${avgTake2}`)
 
 console.log(checkWinner(avgTake2, avgRush));
 
@@ -53,8 +53,8 @@ const avgTake2B = calcAverage(85, 54, 41);
 const avgRushB = calcAverage(23, 34, 27);
 
 console.log(checkWinner(avgTake2B, avgRushB));
-[12:06 PM]
-/----------BMI Calculator----------//
+//[12:06 PM]
+//----------BMI Calculator----------//
 
 // Test data 1
 const sioneMass1 = 78; // kg
@@ -69,12 +69,12 @@ const tualeleMass2 = 85; // kg
 const tualeleHeight2 = 1.66; // m
 
 // Calculate BMI using test data 1
-const sioneBMI1 = sioneMass1 / (sioneHeight1  2);
-const tualeleBMI1 = tualeleMass1 / (tualeleHeight1  2);
+const sioneBMI1 = sioneMass1 / (sioneHeight1**  2);
+const tualeleBMI1 = tualeleMass1 / (tualeleHeight1**  2);
 
 // Calculate BMI using test data 2
-const sioneBMI2 = sioneMass2 / (sioneHeight2  2);
-const tualeleBMI2 = tualeleMass2 / (tualeleHeight2  2);
+const sioneBMI2 = sioneMass2 / (sioneHeight2**  2);
+const tualeleBMI2 = tualeleMass2 / (tualeleHeight2**  2);
 
 // Log the results to the console
 console.log("Sione's BMI using test data 1 is:", sioneBMI1);
