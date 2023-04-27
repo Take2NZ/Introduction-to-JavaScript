@@ -33,26 +33,27 @@ if (sionesBMI > tualelesBMI) {
 }
 
 // TERNARY if else statement:
-return sionesBMI > tualelesBMI ? console.log("sione's is higher") : console.log("tualeles is higher")
-
+// let calc = sionesBMI > tualelesBMI ? console.log("sione's is higher") : console.log("tualeles is higher");
+// return calc
 //Challenge #2: Who Wins the Trophy??
 
 /*TEST DATA: Take2 scores 96, 108 and 89. RUSH scores 88, 91 and 110.
 
 TEST DATA BONUS 1: Take2 scores 97, 112 and 101. RUSH scores 109, 95 and 123.
 
-TEST DATA BONUS 2: Take2 scores 97, 112 and 101. RUSH scores 109, 95 and 106.*/ 
+TEST DATA BONUS 2: Take2 scores 97, 112 and 101. RUSH scores 109, 95 and 106.
 
-function take2AvgScore() {
-    let a = 96;
-    let b = 108;
-    let c = 89;
-    
-     
-//let avgScore = (a + b + c / 2);
-//avgScore = 96 + 108 + 89 / 2;
-//return take2AvgScore 
-}
+*/
+
+let a = 96;
+let b = 108;
+let c = 89;
+console.log(a)
+
+
+
+
+
 
 
 
