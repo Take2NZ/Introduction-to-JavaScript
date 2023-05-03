@@ -115,8 +115,8 @@ console.log(draw);
 
 // Challenge #3: Tip Calculator
 // Challenge #3-1.
+// T.C. via If/Else
 
-// let higherBMI = 26.87867813490267 > 30.84627667295689 ? console.log("Sione's BMI is higher") : console.log("Tualele's BMI is higher");
 let bill = 200;
 let tip1 
 if (bill >= 50 && bill <= 300) {
@@ -124,9 +124,42 @@ if (bill >= 50 && bill <= 300) {
 } else { 
     tip1 = bill * 0.20
 }
-console.log(tip1);
-let dinnervalue = 250
+console.log("The Tip Is: ", tip1);
+
+// T.C. via Ternary Operator
+let dinnervalue = 25
 let tip = (dinnervalue >= 50 && dinnervalue <= 300) ? console.log("15% Tip Is: ", (dinnervalue * 0.15)) : console.log("20% Tip Is: ", (dinnervalue * 0.20));
+
+// Challenge #4: Season 2
+// TEST DATA 1: TAKE2 SCORE 44, 23 AND 71 : RUSH SCORE 65, 54 AND 49
+// TEST DATA 2: TAKE2 SCORE 85, 54 AND 41 : RUSH SCORE 23, 34 AND 27
+// Challenge #4-1.
+
+let calcAverage = (score1, score2, score3) => {
+    let total = score1 + score2 + score3;
+    let average = total / 3;
+    return average;
+  };
+
+// Challenge #4-2.
+
+  let take2AverageScore1 = calcAverage(44, 23, 71);
+console.log("Take2's First Average Score: ", take2AverageScore1);
+  
+  let rushAverageScore1 = calcAverage(65, 54, 49);
+console.log("Rush's First Average Score: ", rushAverageScore1);
+
+let take2AverageScore2 = calcAverage(85, 54, 41);
+console.log("Take2's Second Average Score: ", take2AverageScore2);
+  
+  let rushAverageScore2 = calcAverage(23, 34, 27);
+console.log("Rush's Second Average Score: ", rushAverageScore2);
+
+// Challenge #4-3.
+
+
+
+
 
 
 
