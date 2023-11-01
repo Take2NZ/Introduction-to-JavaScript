@@ -5,7 +5,7 @@
 // TEST DATA BONUS 1: Take2 scores 97, 112 and 101. RUSH scores 109, 95 and 123.
 // TEST DATA BONUS 2: Take2 scores 97, 112 and 101. RUSH scores 109, 95 and 106.
 
-
+//testing
 const take2Scores = [96, 108, 89];
 const rushScores = [88, 91, 110];
 
